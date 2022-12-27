@@ -27,4 +27,15 @@ Assim que o `pip` terminar de baixar as dependências:
 ```sh
 (env)$ python manage.py runserver
 ```
-E navegue até `http://127.0.0.1:8000/`
+navegue até `http://127.0.0.1:8000/`
+
+## Criar Conta
+
+1. Para criar a conta, clique no botão "Sign up for Spotify"
+2. Preencha as informações: What's your name?, What's your email?, Create a password, Confirm your password.
+3. Aperte o botão Sign Up.
+
+
+ 
+
+
