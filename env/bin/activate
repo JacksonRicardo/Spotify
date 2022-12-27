@@ -46,7 +46,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV='/home/jackson/workspace3/spotify-clone-django/env'
+VIRTUAL_ENV='/home/jackson/workspace2/spotify/env'
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
