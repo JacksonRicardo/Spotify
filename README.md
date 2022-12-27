@@ -12,7 +12,7 @@ $ cd spotify-clone-django
 Crie um ambiente virtual para instalar as dependências e ative-o:
 
 ```sh
-$ virtualenv2 --no-site-packages env
+$ virtualenv env
 $ source env/bin/activate
 ```
 
