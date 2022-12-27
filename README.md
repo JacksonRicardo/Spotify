@@ -19,7 +19,7 @@ $ source env/bin/activate
 Em seguida, instale as dependências:
 
 ```sh
-(env)$ pip install -r requisitos.txt
+(env)$ pip install -r requirements.txt
 ```
 Observe o `(env)` na frente do prompt. Isso indica que este terminal
 sessão opera em um ambiente virtual configurado por `virtualenv2`.
