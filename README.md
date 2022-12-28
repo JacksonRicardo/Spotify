@@ -8,7 +8,8 @@ A primeira coisa a fazer é clonar o repositório:
 $ git clone https://github.com/JacksonRicardo/spotify.git
 ```
 
-Crie um ambiente virtual para sistemas ou subsistemas Linux (WSL) instalar as dependências e ative-o:
+
+Crie um ambiente virtual para sistemas ou subsistemas Linux (WSL) instalar as dependências e ative-o, dentro da pasta Spotify:
 
 ```sh
 $ virtualenv env
