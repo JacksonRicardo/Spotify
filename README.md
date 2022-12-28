@@ -14,13 +14,6 @@ Crie um ambiente virtual para sistemas ou subsistemas Linux (WSL) instalar as de
 $ virtualenv env
 $ source env/bin/activate
 ```
-Em caso de erro no ambiente virtual, rode os seguintos comandos:
-```sh
-$ pip3 uninstall virtualenv
-$ sudo pip3 install virtualenv
-$ virtualenv .env --always-copy
-$ source .env/bin/activate
-```
 
 Em seguida, instale as dependências:
 
