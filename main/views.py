@@ -8,8 +8,6 @@ from youtube_search import YoutubeSearch
 import json
 # import cardupdate
 
-
-
 f = open('card.json', 'r')
 CONTAINER = json.load(f)
 
@@ -64,12 +62,12 @@ def login_auth(request):
         user = authenticate(username=username, password=password)
 
         if user is not None:
-            # A backend authenticated the credentials
+            # Autenticação do backend
             login(request,user)
             return redirect('/')
 
         else:
-            # No backend authenticated the credentials
+            # Não conseguiu autenticar no backend
             context= {'case':False}
             return render(request,'login.html',context)
 

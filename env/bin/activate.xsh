@@ -28,7 +28,7 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
-$VIRTUAL_ENV = r"/home/jackson/workspace2/spotify/env"
+$VIRTUAL_ENV = r"/home/jackson/workspace3/spotify/env"
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]
